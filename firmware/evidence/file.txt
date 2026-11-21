@@ -1,0 +1,1 @@
+/home/samuel/projects/fecaf/iot/firmware/work/firmware_analise.bin: data

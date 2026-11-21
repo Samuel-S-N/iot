@@ -1,0 +1,19 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+71362         0x116C2         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.cpp
+72302         0x11A6E         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiGeneric.cpp
+74834         0x12452         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiSTA.cpp
+75807         0x1281F         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src/HTTPUpdate.cpp
+76761         0x12BD9         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/cores/esp32/Esp.cpp
+76967         0x12CA7         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareSerial.cpp
+77792         0x12FE0         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-cpu.c
+78336         0x13200         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-gpio.c
+78526         0x132BE         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-misc.c
+78999         0x13497         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-uart.c
+108195        0x1A6A3         Neighborly text, "neighbor entry"
+141728        0x229A0         SHA256 hash constants, little endian
+149355        0x2476B         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp
+150368        0x24B60         Unix path: /home/samuel/.platformio/packages/framework-arduinoespressif32/libraries/Update/src/Updater.cpp
+150671        0x24C8F         Base64 standard index table
+

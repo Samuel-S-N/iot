@@ -1,0 +1,39 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:1184
+load:0x40078000,len:13232
+load:0x40080400,len:3028
+entry 0x400805e4
+
+[BOOT] NexaSense fw=1.0.3-lab device=nx-4b9e21
+[BOOT] MAC=24:0A:C4:00:01:10
+[DEBUG] ===== CONFIG DUMP =====
+[DEBUG] device_id=nx-4b9e21 fw=1.0.3-lab
+[DEBUG] wifi_ssid=Wokwi-GUEST wifi_pass=
+[DEBUG] mqtt=test.mosquitto.org:1884 user=rw pass=****
+[DEBUG] api_token=NXH-****
+[DEBUG] ota_url=http://updates.nexahome.lab/nexasense/latest.bin
+[DEBUG] interval_ms=5000
+[BOOT] conectando Wi-Fi SSID=Wokwi-GUEST
+......
+[BOOT] IP=10.10.0.2
+[BOOT] MQTT test.mosquitto.org:1884 user=rw
+[BOOT] inscrito em nexahome/nx-4b9e21/cmd
+[PUB] nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+[PUB] nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+[PUB] nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+[... 19 publicações idênticas omitidas, uma a cada 5 s ...]
+[... operador digita "config" no console serial (sem eco, sem senha) ...]
+[DEBUG] ===== CONFIG DUMP =====
+[DEBUG] device_id=nx-4b9e21 fw=1.0.3-lab
+[DEBUG] wifi_ssid=Wokwi-GUEST wifi_pass=
+[DEBUG] mqtt=test.mosquitto.org:1884 user=rw pass=****
+[DEBUG] api_token=NXH-****
+[DEBUG] ota_url=http://updates.nexahome.lab/nexasense/latest.bin
+[DEBUG] interval_ms=5000
+[PUB] nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+[... 5 publicações idênticas omitidas ...]

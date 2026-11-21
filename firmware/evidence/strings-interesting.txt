@@ -1,0 +1,97 @@
+1.0.3-lab
+[%6u][E][%s:%u] %s(): HTTP Code is (%d)
+[%6u][E][%s:%u] %s(): HTTP error: %s
+[%6u][E][%s:%u] %s(): OTA verification failed! Start rollback to the previous version ...
+[%6u][E][%s:%u] %s(): passphrase too long!
+[%6u][E][%s:%u] %s(): SSID too long or missing!
+addba response cb: bssid change from %02x:%02x:%02x:%02x:%02x:%02x to %02x:%02x:%02x:%02x:%02x:%02x
+ap.passwd
+ap.ssid
+[BOOT] conectando Wi-Fi SSID=%s
+[BOOT] MQTT %s:%d user=%s
+[BOOT] NexaSense fw=%s device=%s
+bssid.set
+[CMD] debug=off
+[CMD] debug=on
+[DEBUG] api_token=%s
+[DEBUG] ===== CONFIG DUMP =====
+[DEBUG] device_id=%s fw=%s
+Debug exception reason: 
+[DEBUG] interval_ms=%lu
+DebugIntr 
+debug mode FAIL
+[DEBUG] mqtt=%s:%d user=%s pass=%s
+debug_off
+@debug_on
+[DEBUG] ota_url=%s
+[DEBUG] wifi_ssid=%s wifi_pass=%s
+{"device_id":"%s","temp":%.1f,"hum":%.1f,"fw":"%s","token":"%s"}
+elf_write_core_dump_user_data
+ESP32HTTPClient
+ESP32-http-Update
+esp_core_dump_do_write_elf_pass
+esp_core_dump_get_user_ram_info
+ESP_ERR_HTTP_BASE
+ESP_ERR_HTTP_CONNECT
+ESP_ERR_HTTP_CONNECTING
+ESP_ERR_HTTP_CONNECTION_CLOSED
+ESP_ERR_HTTPD_ALLOC_MEM
+ESP_ERR_HTTPD_BASE
+ESP_ERR_HTTPD_HANDLER_EXISTS
+ESP_ERR_HTTPD_HANDLERS_FULL
+ESP_ERR_HTTPD_INVALID_REQ
+ESP_ERR_HTTPD_RESP_HDR
+ESP_ERR_HTTPD_RESP_SEND
+ESP_ERR_HTTPD_RESULT_TRUNC
+ESP_ERR_HTTPD_TASK
+ESP_ERR_HTTP_EAGAIN
+ESP_ERR_HTTP_FETCH_HEADER
+ESP_ERR_HTTP_INVALID_TRANSPORT
+ESP_ERR_HTTP_MAX_REDIRECT
+ESP_ERR_HTTPS_OTA_BASE
+ESP_ERR_HTTPS_OTA_IN_PROGRESS
+ESP_ERR_HTTP_WRITE_DATA
+ESP_ERR_OTA_BASE
+ESP_ERR_OTA_PARTITION_CONFLICT
+ESP_ERR_OTA_ROLLBACK_FAILED
+ESP_ERR_OTA_ROLLBACK_INVALID_STATE
+ESP_ERR_OTA_SELECT_INFO_INVALID
+ESP_ERR_OTA_SMALL_SEC_VER
+ESP_ERR_OTA_VALIDATE_FAILED
+ESP_ERR_WIFI_PASSWORD
+ESP_ERR_WIFI_SSID
+esp_ota_get_app_partition_count
+esp_ota_get_next_update_partition
+esp_ota_get_running_partition
+esp_ota_ops
+E (%u) %s: dhcps cb: failed to post IP_EVENT_AP_STAIPASSIGNED (%x)
+E (%u) %s: mmap otadata filed. Err=0x%8x
+E (%u) %s: not found otadata
+from user
+/home/samuel/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src/HTTPClient.cpp
+/home/samuel/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src/HTTPUpdate.cpp
+ HTTP/1.
+HTTP error: 
+httponly
+http://updates.nexahome.lab/nexasense/latest.bin
+/IDF/components/app_update/esp_ota_ops.c
+[MQTT] %s <- %s
+nexahome/
+no HTTP server
+@not enough space for format expansion (Please submit full bug report at https://gcc.gnu.org/bugs/):
+nx-4b9e21
+NXH-****
+ota_app_count < 16 && "must erase the partition before writing to it"
+[OTA] baixando %s
+otadata
+[OTA] resultado=%d %s
+passive
+sta.bssid
+sta.ssid
+test.mosquitto.org
+total_power=%lld, sig_power=%lld, dc_power=%lld, noise_power=%lld
+total_pwr=%ld, min=%ld, max=%ld, rftx=0x%x, att=%d, dc_i=%d, dc_q=%d
+Unhandled debug exception
+User-Agent
+User-Agent: 
+Wrong HTTP Code

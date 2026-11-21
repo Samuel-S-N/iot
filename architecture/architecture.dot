@@ -1,0 +1,27 @@
+digraph NexaSense {
+  rankdir=TB; fontname="Helvetica"; node [fontname="Helvetica", shape=box, style="rounded,filled", fillcolor="#f2f2f2"];
+  edge [fontname="Helvetica", fontsize=10];
+
+  subgraph cluster_hw { label="Hardware (ESP32-DevKitC simulado no Wokwi)"; style=dashed;
+    dht [label="DHT22\nTemperatura / Umidade"];
+    mcu [label="ESP32 (Xtensa LX6, dual-core)\nSoC com Wi-Fi/BLE"];
+    flash [label="SPI Flash 4 MB\nbootloader | partições | nvs | app0/app1 (OTA)"];
+    ifs [label="Interfaces físicas\nUART0 (GPIO1/3) | JTAG (GPIO12-15)\nBOOT (GPIO0) | EN", fillcolor="#ffe0e0"];
+    dht -> mcu [label="1-wire GPIO15"];
+    mcu -> flash [label="SPI interno"];
+    mcu -> ifs [dir=both];
+  }
+  fw [label="Firmware NexaSense v1 (Arduino)\nconfig embutida | parser de comandos | HTTPUpdate", fillcolor="#fff4d6"];
+  mcu -> fw [label="executa"];
+  wifi [label="Wi-Fi Wokwi-GUEST\n(gateway público Wokwi)"];
+  broker [label="test.mosquitto.org:1884\nMQTT sem TLS", fillcolor="#ffe0e0"];
+  op [label="Painel / operador\n(mosquitto_sub)"];
+  att [label="Analista-atacante\n(mosquitto_pub forjado)", fillcolor="#ffe0e0"];
+  ota [label="Servidor OTA (conceitual)\nhttp://updates.nexahome.lab", style="rounded,dashed"];
+  fw -> wifi [label="TCP/IP"];
+  wifi -> broker [label="CONNECT / PUBLISH telemetry"];
+  broker -> wifi [label="cmd"];
+  broker -> op;
+  att -> broker [label="PUBLISH cmd"];
+  fw -> ota [label="HTTP sem assinatura", style=dashed];
+}

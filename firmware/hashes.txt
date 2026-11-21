@@ -1,0 +1,6 @@
+Arquivo:  firmware_original.bin
+Tamanho:  4194304 bytes
+Origem:   build local PlatformIO (espressif32@6.9.0, env esp32dev) consolidado com esptool merge_bin
+          offsets 0x1000 bootloader | 0x8000 partições | 0xe000 boot_app0 | 0x10000 aplicação
+Data:     2026-11-20 21:36:55 -0300
+SHA-256:  39c484e40072e36392ee1c602aa686c028466266dd241b6f955e5e4eb03b3de4

@@ -1,0 +1,5 @@
+firmware-src/.pio/
+firmware/work/
+report/relatorio.html
+docs/
+.claude/

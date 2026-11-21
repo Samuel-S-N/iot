@@ -1,0 +1,74 @@
+frame.time_relative ip.src ip.dst mqtt.msgtype mqtt.clientid mqtt.username mqtt.passwd mqtt.topic mqtt.msg_text
+4.323093916 10.10.0.2 54.36.178.49 1 nx-4b9e21 rw ****  
+4.599761276 54.36.178.49 10.10.0.2 2     
+4.604996793 10.10.0.2 54.36.178.49 8    nexahome/nx-4b9e21/cmd 
+4.934121295 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+5.066428709 54.36.178.49 10.10.0.2 9     
+9.910713357 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+14.910713387 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+19.910713356 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+20.133292998 10.10.0.2 54.36.178.49 12     
+20.732123283 54.36.178.49 10.10.0.2 13     
+24.910713355 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+29.910713391 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+34.910890088 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+35.737131775 10.10.0.2 54.36.178.49 12     
+36.097882088 54.36.178.49 10.10.0.2 13     
+39.910890086 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+44.910890088 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+49.910713391 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+51.102713237 10.10.0.2 54.36.178.49 12     
+51.563509132 54.36.178.49 10.10.0.2 13     
+54.910713364 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+59.910713338 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+64.910901514 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+66.568044660 10.10.0.2 54.36.178.49 12     
+66.995868961 54.36.178.49 10.10.0.2 13     
+69.910713375 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+74.910713370 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+79.910708902 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+82.001705863 10.10.0.2 54.36.178.49 12     
+82.427664303 54.36.178.49 10.10.0.2 13     
+84.910713405 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+89.910890592 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+94.910900899 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+97.432966416 10.10.0.2 54.36.178.49 12     
+97.726755914 54.36.178.49 10.10.0.2 13     
+99.910713381 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+104.910713368 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+109.910708904 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+112.731897414 10.10.0.2 54.36.178.49 12     
+113.192717423 54.36.178.49 10.10.0.2 13     
+114.910713385 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+119.910714655 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+124.910890592 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+128.197885938 10.10.0.2 54.36.178.49 12     
+128.558478001 54.36.178.49 10.10.0.2 13     
+129.910890592 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+134.910713361 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+139.910890079 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+143.562922681 10.10.0.2 54.36.178.49 12     
+143.924938085 54.36.178.49 10.10.0.2 13     
+144.910713333 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+149.910890081 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+154.910890079 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+158.929996552 10.10.0.2 54.36.178.49 12     
+159.290164086 54.36.178.49 10.10.0.2 13     
+159.910713367 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+164.910713349 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+169.910890079 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+174.294996802 10.10.0.2 54.36.178.49 12     
+174.723124132 54.36.178.49 10.10.0.2 13     
+174.910890080 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+179.910713412 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+184.910900945 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+189.727880493 10.10.0.2 54.36.178.49 12     
+190.089403665 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+190.321618085 54.36.178.49 10.10.0.2 13     
+194.910713343 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+199.910710116 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+204.910713352 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+205.327040002 10.10.0.2 54.36.178.49 12     
+205.753145169 54.36.178.49 10.10.0.2 13     
+209.910713402 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+214.910900947 10.10.0.2 54.36.178.49 3    nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}

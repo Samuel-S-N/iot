@@ -1,0 +1,5 @@
+$ mosquitto_sub -h test.mosquitto.org -p 1884 -u rw -P **** -t "nexahome/nx-4b9e21/#" -v
+nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+nexahome/nx-4b9e21/telemetry {"device_id":"nx-4b9e21","temp":24.5,"hum":55.0,"fw":"1.0.3-lab","token":"NXH-****"}
+[... 37 mensagens idênticas, uma a cada 5 s, omitidas ...]
