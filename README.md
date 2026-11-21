@@ -2,7 +2,8 @@
 
 Repositório de evidências da avaliação de segurança do protótipo **NexaSense v1** (ESP32 + DHT22), parte do trabalho "Do Protótipo ao Produto Seguro". Aluno: **Samuel Solano Neres — R.A. 96037**, turma CDC 6NA, UniFECAF.
 
-**Vídeo:** _(preencher com o link não listado do YouTube)_
+**Relatório:** [relatorio.pdf](relatorio.pdf)
+**Vídeo:** https://youtu.be/4Pua4U4AOHk
 
 > **Nota sobre segredos.** Todos os valores sensíveis deste repositório são fictícios ou credenciais públicas do broker de teste `test.mosquitto.org`. Nas evidências, senha MQTT e token aparecem mascarados (`****`). O código-fonte em `firmware-src/` e a imagem bruta `firmware/firmware_original.bin` contêm os valores em claro, por serem o material educacional analisado. Nenhum teste foi feito fora do tópico `nexahome/nx-4b9e21/#`.
 
@@ -37,12 +38,12 @@ Detalhes em [architecture/components.md](architecture/components.md).
 | TShark / Wireshark | 4.2.2 | Análise do PCAP |
 | mosquitto-clients | sistema | Observação e demonstração MQTT |
 | Graphviz (dot) | 2.43.0 | Diagrama de arquitetura |
-| pandoc | 3.1.3 | Markdown → HTML do relatório |
-| WeasyPrint | 61.1 | HTML → PDF do relatório |
 
-## 6. Organização das evidências
+## 6. Organização do repositório
 
 ```
+relatorio.pdf     Relatório final (entregável)
+README.md         Este arquivo (12 itens exigidos)
 firmware-src/     Código do firmware educacional (fragilidades intencionais) + circuito Wokwi
 firmware/         Imagem preservada (SHA-256), evidências estáticas e análise
 hardware/         Mapa de interfaces + evidências da UART
@@ -50,8 +51,6 @@ network/          Análise de protocolo + PCAP, campos MQTT e demonstração F04
 architecture/     Diagrama e inventário de componentes
 findings/         Achados F01–F06, matriz de risco e cadeias de ataque
 remediation/      Plano de hardening
-report/           Relatório em PDF (fonte Markdown + CSS + build)
-video/            Roteiro do vídeo
 lab/              Scripts de build, mascaramento e análise
 ```
 
